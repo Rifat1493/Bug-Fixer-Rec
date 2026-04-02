@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# custom
+data/all_data
+data/bug_repo_combined_data.csv
+data
+
+
 # Distribution / packaging
 .Python
 build/
