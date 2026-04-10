@@ -241,7 +241,7 @@ def plot_donut(labels, values, title):
 	ax.set_title(title, fontsize=7, pad=6)
 	ax.axis("equal")
 	fig.tight_layout(pad=0.2)
-	st.pyplot(fig, use_container_width=True)
+	st.pyplot(fig, width='stretch')
 
 
 def plot_horizontal_bars(labels, values, title):
@@ -265,7 +265,7 @@ def plot_horizontal_bars(labels, values, title):
 	ax.set_yticklabels([])
 	ax.tick_params(axis="x", labelsize=4) 
 	fig.tight_layout(pad=0.2)
-	st.pyplot(fig, use_container_width=True)
+	st.pyplot(fig, width='stretch')
 
 
 @st.cache_resource(show_spinner=False)
